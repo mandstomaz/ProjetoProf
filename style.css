@@ -1,0 +1,144 @@
+body {
+    background-color: #070606;
+}
+
+menu {
+    background-color: #6728a5;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+
+    position: relative;
+    z-index: 1000;
+    margin-top: 0;
+    width: 100%;
+}
+
+.fixed {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#titulo1 {
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+#telaInicial {
+    margin-bottom: 0;
+}
+
+.menu-itens {
+    color: #f1f1f1; /*Define a cor do texto*/
+    text-decoration: none; /*Retira o traço de link da palavra*/
+    padding: 10px 20px;
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+    margin: 0;
+    font-size: 18px; /*Define o tamanho do texto*/
+    display: inline-block; /*Deixa o item como o bloco em uma linha*/
+}
+
+.menu-itens:hover { /*É um evento de mouse que ocorre uma ação toda vez que colocamos o mouse em cima do elemento*/
+    background-color: #d0dbf8;
+    color: #260D61;
+    border-radius: 8px; /*Arredondar as bordas de um elemento*/
+}
+
+#carrosselShow1 {
+    padding-right: 500px;
+    padding-left: 500px;
+}
+
+.carroselcard {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 1rem;
+}
+
+.card {
+    box-shadow: 0 10px 15px #6728a5;
+}
+
+.card p {
+    color: #070606;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.textol {
+    margin-top: 5%;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #712bb8;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #712bb8;
+}
+
+h1, h3, h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #712bb8;
+    text-shadow: 0 4px 6px #6728a5;
+}
+
+section {
+    /*Estilizando a fonte do texto que está dentro da section*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+/*O design abaixo refere-se à estilização da tabela, porém devido as estilizações de seus elementos thead e tbody ela acabou ficando absoleta, não aparece na página*/
+table {
+    border: 1px solid; /*Cria uma borda de 1px de altura, dashed é a borda do tipo pontilhada*/
+    border-color: #712bb8; /*Aplica uma cor à borda*/
+    box-shadow: 0 10px 15px #6728a5;
+}
+
+thead { /*Estilização do cabeçalho - 1ª linha da tabela*/
+    background-color: #6220a3; 
+    color: #070606; /*Cor do texto*/
+    height: 15px; /*ALtura da 1ª linha*/
+}
+
+th { /*Estiliza cada célula do cabeçalho*/
+    width: 150px; /*Largura da célula*/
+    text-align: center; /*Alinhamento horizontal do texto*/
+    align-items: center; /*Alinhamento vertical do texto*/
+    color: #f1f1f1;
+    height: 11px;
+    border: #6220a3 solid; /*Cor da borda*/
+}
+
+tbody { /*Estiliza o corpo da tebela - todas as linhas, exceto a primeira*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #f1f1f1;
+    background-color: #000000;
+    border: #6220a3 solid;
+}
+
+td { /*Estiliza cada célula do corpo da tabela*/
+    text-align: center;
+    border: #6220a3 solid;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 50px;
+    color:#391c7e;
+    justify-items: center;
+    padding-top: 1%;
+    margin-bottom: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
