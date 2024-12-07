@@ -1,0 +1,169 @@
+<!DOCTYPE html> <!--tag para definir o tipo de documento-->
+<html lang="pt-br"> <!--tag para definir a linguagem do documento-->
+<head>
+    <meta charset="UTF-8"> <!--UTF-8 é o modo para que todas as letras manteem-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page Pulse Eventos</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css"> <!--Link do css-->
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
+    <script src="index.js" type="text/JavaScript" defer></script>
+</head>
+
+<body>
+
+    <div id="telaInicial" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="pulseShow.jpg" alt="Imagem da Casa PulseShow" style="width: 100%; height: 500px;">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="pulseShow2.avif" alt="Imagem da Casa PulseShow" style="width: 50%; height: 600px;">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="pulseShow3.jpg" alt="Imagem da Casa PulseShow" style="width: 50%; height: 600px;">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="pulseShow4.jpg" alt="Imagem da Casa PulseShow" style="width: 50%; height: 600px;">
+            </div>
+        </div>
+    </div>
+
+    
+    <menu>
+        <a class="menu-itens" href="index.html">Home</a>
+        <a class="menu-itens" href="teatro.html">Teatro</a>
+        <a class="menu-itens" href="musica.html">Shows</a>
+        <a class="menu-itens" href="danca.html">Dança</a>
+    </menu>
+    <br>
+
+    <center>
+        <h1 id="titulo1">Bem-vindo ao Pulse Eventos</h1>
+        <h3><strong>Onde a vibração nunca para!</strong></h3>
+        <p style="width: 600px;"> No <strong>Pulse Eventos</strong>, nossa missão é transformar cada ocasião em uma experiência inesquecível. Somos o seu ponto de encontro para uma programação vibrante que vai além do convencional – trazendo shows eletrizantes, peças teatrais cativantes e performances de dança de tirar o fôlego.</p>
+        <ul style="width: 600px;">
+            <li>Do rock ao jazz, do teatro clássico à dança contemporânea, oferecemos uma variedade de eventos que atendem a todos os gostos e estilos.</li>
+            <li>Trabalhamos com os melhores artistas e produções para garantir que cada evento seja uma celebração de talento e criatividade.</li>
+            <li>Nossos espaços são projetados para oferecer uma atmosfera envolvente e moderna, criando a combinação perfeita entre conforto e inovação.</li>
+        </ul>
+    </center>
+    <br>
+
+    <center>
+        <img src="casadeshow.jpg" alt="Imagem da Casa de Show" style="width: 700px; height: 500px;">
+    </center>
+    <br>
+
+    <center>
+        <p style="width: 600px;">Explore nossa agenda e descubra os eventos que vão agitar suas noites e iluminar seus dias. No Pulse Eventos, cada evento é uma oportunidade para criar memórias inesquecíveis e se conectar com a cultura de uma forma nova e emocionante.</p>
+        <p style="width: 600px;">Fique por dentro das novidades e não perca nenhuma atração! Siga-nos nas redes sociais e assine nossa newsletter para estar sempre atualizado com o que há de mais quente no mundo do entretenimento.</p>
+    </center>
+
+    <!--Criando uma tabela de próximos eventos-->
+    <center>
+        <h4 class="textol">Próximos Shows</h4>
+        <br>
+        <table>
+            <thead> <!--Cabeçalho-->
+                <tr> <!--1º Linha-->
+                    <th>Tipo de Evento</th>
+                    <th>Nome do Artista</th>
+                    <th>Data do Evento</th>
+                    <th>Ingresso (Inteira)</th>
+                    <th>Ingresso (Meia)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Show</td>
+                    <td>Banda XYZ</td>
+                    <td>05/10/2024</td>
+                    <td>R$100,00</td>
+                    <td>R$50,00</td>
+                </tr>
+                <tr>
+                    <td>Teatro</td>
+                    <td>O Enigma</td>
+                    <td>12/10/2024</td>
+                    <td>R$80,00</td>
+                    <td>R$40,00</td>
+                </tr>
+                <tr>
+                    <td>Teatro</td>
+                    <td>O Enigma</td>
+                    <td>12/10/2024</td>
+                    <td>R$80,00</td>
+                    <td>R$40,00</td>
+                </tr>
+                <tr>
+                    <td>Show</td>
+                    <td>Jazz Ella</td>
+                    <td>18/10/2024</td>
+                    <td>R$120,00</td>
+                    <td>R$60,00</td>
+                </tr>
+                <tr>
+                    <td>Dança</td>
+                    <td>Street Dance</td>
+                    <td>11/11/2024</td>
+                    <td>R$100,00</td>
+                    <td>R$50,00</td>
+                </tr>
+            </tbody>
+            
+        </table>
+    </center>
+    <br>
+    <center>
+        <h4 class="textol">Quem Somos</h4>
+        <br>
+    <div class="carroselcard">
+        <div class="card" style="width: 14%;" >
+            <img class="card-img-top" src="gerenteComercial.jpg" alt="Imagem da Gerente Comercial">
+            <div class="card-body">
+            <h5>Gerente Comercial</h5>
+            <p>Sara, combina sua vasta experiência em planejamento com uma abordagem criativa e apaixonada, garantindo experiências inesquecíveis para cada cliente.</p>
+            </div>
+        </div>
+        <div class="card" style="width: 14%;" >
+            <img class="card-img-top" src="acessorEventos.jpg" alt="Imagem do Assessor de Eventos">
+            <div class="card-body">
+            <h5>Assessor de Eventos</h5>
+            <p>Antunes, assessor de eventos com anos de experiência, é conhecido por sua atenção aos detalhes e dedicação, transformando cada ocasião em uma celebração memorável.</p>
+            </div>
+        </div>
+        <div class="card" style="width: 14%;" >
+            <img class="card-img-top" src="publicidadePropaganda.jpg" alt="Imagem da nossa Publicidade e Propaganda">
+            <div class="card-body">
+            <h5>Publicidade e Propaganda</h5>
+            <p>Alexei, especialista em publicidade e propaganda, combina estratégia e inovação para a divulgação de nossos eventos.</p>
+            </div>
+        </div>
+    </div>
+    </center>
+    <br>
+    <hr style="width: 50%;">
+    
+    <center>
+        <section>
+            <h3>Deixe seu depoimento!</h3>
+            <h4>Sua opinião é muito importante para nós.</h4>
+            <textarea style="width: 500px; height: 100px;" placeholder="Escreva seu recado..."></textarea>
+            <button>💬</button>
+        </section>
+
+        <br>
+
+        <footer>
+            <p> &copy; 2024 Pulse Eventos. Todos os direitos reservados.</p>
+        </footer>
+    </center>
+</body>
+</html>
+
